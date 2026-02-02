@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake, coffee, black, dracula;
+}
+
+body {
+  cursor: url('/cursor.png') 8 8, auto;
+}
+
+@keyframes cloudFloat {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(120vw);
+  }
+}
+
+.cloud-float {
+  animation: cloudFloat 20s linear infinite;
+}
+
+
+
+
+@keyframes spinClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sun-rotate {
+  animation: spinClockwise 4s steps(6, end) infinite;
+}
