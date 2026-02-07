@@ -16,7 +16,8 @@ const Skills = () => {
                 'Hibernate',
                 'Node.js',
                 'Express.js',
-                'REST APIs'
+                'REST APIs',
+                'Mongoose'
               ]}
             />
 
