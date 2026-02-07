@@ -5,7 +5,6 @@ import HandDrawnCard from './components/HanddrawnCard'
 
 import CodingActivity from './components/CodingActivity'
 import ContactSection from './components/Contact'
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useRef, useEffect } from 'react'
 import './App.css'
 import HeroSection from './components/HeroSection'
@@ -34,7 +33,6 @@ function App () {
 
       <ContactSection />
 
-<SpeedInsights/>
     </div>
   )
 }
