@@ -23,7 +23,7 @@ const HeroSection = () => {
     }
   }, [])
   return (
-    <section className=' relative overflow-hidden min-h-screen flex items-center px-6 md:px-20 mb-10'>
+    <section className=' relative overflow-hidden pt-60 flex items-center px-6 md:px-20 mb-50'>
       {/* Floating Cloud
       <img
         src={cloudImg}
