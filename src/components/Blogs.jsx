@@ -9,13 +9,13 @@ const Blogs = () => {
       link: 'https://medium.com/@VibhutiSavaldekar/what-i-leant-building-a-mern-app-9fbb4f93cea6'
     },
     {
-      title: 'How REST APIs Actually Work',
-      date: 'Dec 28, 2025',
-      link: 'https://medium.com/@yourusername/rest-apis'
+      title: 'what happens when you execute a JS file in nodeJs?',
+      date: 'Dec 27, 2026',
+      link: 'https://medium.com/@VibhutiSavaldekar/what-actually-happens-when-you-run-a-js-file-in-node-js-5c383eee3f89'
     },
     {
       title: 'Java Collections Deep Dive',
-      date: 'Dec 10, 2025',
+      date: 'Dec 10, 2026',
       link: 'https://medium.com/@yourusername/java-collections'
     }
   ]
