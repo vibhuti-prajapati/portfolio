@@ -1,6 +1,5 @@
 import { useState } from 'react'
 
-import HandDrawnCard from './components/HanddrawnCard'
 
 import CodingActivity from './components/CodingActivity'
 import ContactSection from './components/Contact'
@@ -11,6 +10,7 @@ import AboutMe from './components/AboutMe'
 import MyProjects from './components/MyProjects'
 import Skills from './components/Skills'
 import Blogs from './components/Blogs'
+import BlogNotice from './components/BlogNotice'
 function App() {
   return (
     <div
@@ -21,6 +21,7 @@ function App() {
       }}
     >
       <div className="max-w-4xl mx-auto px-6">
+        <BlogNotice/>
         <HeroSection />
         <AboutMe />
         <MyProjects />

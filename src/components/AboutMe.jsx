@@ -3,7 +3,7 @@ import HandDrawnCard from './HanddrawnCard'
 import girl from '../assets/girl.svg'
 const AboutMe = () => {
   return (
-    <section className='px-6 md:px-20 py-10'>
+    <section className='px-6 md:px-20 mt-10'>
       <div className='max-w-7xl  gap-12 items-start'>
         {/* LEFT — Story */}
         <div>
