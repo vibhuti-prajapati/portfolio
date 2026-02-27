@@ -10,7 +10,7 @@ const Blogs = () => {
     },
     {
       title: 'what happens when you execute a JS file in nodeJs?',
-      date: 'Dec 27, 2026',
+      date: 'Feb 27, 2026',
       link: 'https://medium.com/@VibhutiSavaldekar/what-actually-happens-when-you-run-a-js-file-in-node-js-5c383eee3f89'
     },
     {
