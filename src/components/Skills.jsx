@@ -1,32 +1,36 @@
 import React from 'react'
 import SkillGroup from './SkillGroup'
+import { FaBolt, FaBookOpen } from 'react-icons/fa'
 const Skills = () => {
   return (
-<section className='px-6 md:px-20 py-24'>
-        <div className='max-w-7xl mx-auto'>
-          <h2 className='text-3xl md:text-4xl font-bold mb-12'>Skills</h2>
+    <section className='px-6 md:px-20 py-24'>
+      <div className='max-w-7xl mx-auto'>
+        <h2 className='text-4xl font-bold flex items-center  gap-3 font-mono mb-12'>
+          
+          <FaBolt/> Skills
+        </h2>
 
-          <div className='grid md:grid-cols-3 gap-12'>
-            <SkillGroup
-              title='Backend'
-              skills={[
-                'Java',
-                'Spring',
-                'Spring Boot',
-                'Hibernate',
-                'Node.js',
-                'Express.js',
-                'REST APIs',
-                'Mongoose'
-              ]}
-            />
+        <div className='grid md:grid-cols-3 gap-12'>
+          <SkillGroup
+            title='Backend'
+            skills={[
+              'Java',
+              'Spring',
+              'Spring Boot',
+              'Hibernate',
+              'Node.js',
+              'Express.js',
+              'REST APIs',
+              'Mongoose'
+            ]}
+          />
 
-            <SkillGroup title='Databases' skills={['MongoDB', 'MySQL']} />
+          <SkillGroup title='Databases' skills={['MongoDB', 'MySQL']} />
 
-            <SkillGroup title='Tools' skills={['Git', 'Postman']} />
-          </div>
+          <SkillGroup title='Tools' skills={['Git', 'Postman']} />
         </div>
-      </section>
+      </div>
+    </section>
   )
 }
 

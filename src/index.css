@@ -3,10 +3,20 @@
   themes: light --default, dark --prefersdark, cupcake, coffee, black, dracula;
 }
 
-body {
-  cursor: url('/cursor.png') 8 8, auto;
+@font-face {
+  font-family: "menlo";
+  src: url("./assets/Menlo-Regular.ttf") format("truetype");
+  font-style: normal;
 }
 
+@theme{
+   --font-menlo:"menlo", "sans-serif"
+}
+@layer base {
+  html {
+    font-family: 'menlo', sans-serif;
+  }
+}
 @keyframes cloudFloat {
   0% {
     transform: translateX(-150%);

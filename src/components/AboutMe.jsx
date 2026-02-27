@@ -4,7 +4,7 @@ import girl from '../assets/girl.svg'
 const AboutMe = () => {
   return (
     <section className='px-6 md:px-20 py-24'>
-      <div className='max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start'>
+      <div className='max-w-7xl  gap-12 items-start'>
         {/* LEFT — Story */}
         <div>
           <div className='flex items-center gap-3'>
@@ -15,49 +15,87 @@ const AboutMe = () => {
             />
             <h2 className='text-3xl md:text-4xl font-bold'>About Me</h2>
           </div>
-          <p className='mt-6 text-gray-700 leading-relaxed'>
-            I began my career focusing on Java and Spring during my trainee
-            period at NJ India Finlogic Technologies, where I worked on backend
-            development and gained practical industry experience.
-          </p>
-
-          <p className='mt-4 text-gray-700 leading-relaxed'>
-            After graduation, I faced challenges finding backend roles locally,
-            which pushed me to expand my skill set. I transitioned into Node.js
-            and started building full-stack projects to strengthen my backend
-            engineering skills.
-          </p>
-
-          <p className='mt-4 text-gray-700 leading-relaxed'>
-            Today, I focus on building production-style applications and
-            continuously improving as a backend developer.
-          </p>
-        </div>
+        
 
         {/* RIGHT — Journey Cards */}
-        <div className='space-y-6'>
-          <HandDrawnCard>
-            <h3 className='font-bold'>Java & Spring Training</h3>
-            <p className='text-gray-700 mt-2'>
-              Focused on backend fundamentals and enterprise Java development.
-            </p>
-          </HandDrawnCard>
-
-          <HandDrawnCard>
-            <h3 className='font-bold'>Trainee Experience</h3>
-            <p className='text-gray-700 mt-2'>
-              Worked at NJ India Finlogic building backend modules using Spring.
-            </p>
-          </HandDrawnCard>
-
-          <HandDrawnCard>
-            <h3 className='font-bold'>Node.js Transition</h3>
-            <p className='text-gray-700 mt-2'>
-              Building APIs and full-stack projects while preparing for backend
-              roles.
-            </p>
-          </HandDrawnCard>
-        </div>
+        <ul className='timeline timeline-snap-icon max-md:timeline-compact timeline-vertical'>
+          <li>
+            <div className='timeline-middle'>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                viewBox='0 0 20 20'
+                fill='currentColor'
+                className='h-5 w-5'
+              >
+                <path
+                  fillRule='evenodd'
+                  d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z'
+                  clipRule='evenodd'
+                />
+              </svg>
+            </div>
+            <div className='timeline-start mb-10 md:text-end'>
+              <time className='font-mono italic'>2024-25</time>
+              <h3 className='font-semibold'>Java & Spring Training</h3>
+              <p className='text-gray-600 mt-2'>
+                Focused on backend fundamentals and enterprise Java development.
+              </p>
+            </div>
+            <hr />
+          </li>
+          <li>
+            <hr />
+            <div className='timeline-middle'>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                viewBox='0 0 20 20'
+                fill='currentColor'
+                className='h-5 w-5'
+              >
+                <path
+                  fillRule='evenodd'
+                  d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z'
+                  clipRule='evenodd'
+                />
+              </svg>
+            </div>
+            <div className='timeline-end md:mb-10'>
+              <time className='font-mono italic'>2025</time>
+              <h3 className='font-semibold'>Trainee Experience</h3>
+              <p className='text-gray-600 mt-2'>
+                Worked at NJ India Finlogic building backend modules using
+                Spring.
+              </p>
+            </div>
+            <hr />
+          </li>
+          <li>
+            <hr />
+            <div className='timeline-middle'>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                viewBox='0 0 20 20'
+                fill='currentColor'
+                className='h-5 w-5'
+              >
+                <path
+                  fillRule='evenodd'
+                  d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z'
+                  clipRule='evenodd'
+                />
+              </svg>
+            </div>
+            <div className='timeline-start mb-10 md:text-end'>
+              <time className='font-mono italic'>2026</time>
+              <h3 className='font-semibold'>Node.js Transition</h3>
+              <p className='text-gray-600 mt-2'>
+                Building APIs and full-stack projects while preparing for
+                backend roles.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
       </div>
     </section>
   )

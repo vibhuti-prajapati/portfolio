@@ -20,14 +20,14 @@ export default function ContactSection () {
         {/* Contact Links */}
         <div className='mt-10 flex flex-col md:flex-row justify-center gap-6'>
           <a
-            href='mailto:yourmail@example.com'
+            href='mailto:vibhutiprajapati784@gmail.com'
             className='px-6 py-3 border-2 border-black rounded-full hover:-translate-y-1 transition'
           >
             Email
           </a>
 
           <a
-            href='https://github.com/yourusername'
+            href='https://github.com/vibhuti-prajapati'
             target='_blank'
             className='px-6 py-3 border-2 border-black rounded-full hover:-translate-y-1 transition'
           >
@@ -35,7 +35,7 @@ export default function ContactSection () {
           </a>
 
           <a
-            href='https://linkedin.com/in/yourprofile'
+            href='https://linkedin.com/in/vibhuti-savaldekar'
             target='_blank'
             className='px-6 py-3 border-2 border-black rounded-full hover:-translate-y-1 transition'
           >
