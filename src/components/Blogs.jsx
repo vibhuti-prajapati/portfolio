@@ -20,7 +20,7 @@ const Blogs = () => {
     }
   ]
   return (
-    <section className='px-6 md:px-20 py-24'>
+    <section className='px-6 md:px-20 pt-16'>
       <div className='max-w-7xl mx-auto'>
         <h2 className='text-4xl font-bold flex items-center  gap-3 font-mono mb-12'>
           {' '}

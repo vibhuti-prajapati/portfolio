@@ -3,7 +3,7 @@ import HandDrawnCard from './HanddrawnCard'
 import girl from '../assets/girl.svg'
 const AboutMe = () => {
   return (
-    <section className='px-6 md:px-20 py-24'>
+    <section className='px-6 md:px-20 py-10'>
       <div className='max-w-7xl  gap-12 items-start'>
         {/* LEFT — Story */}
         <div>
@@ -18,7 +18,7 @@ const AboutMe = () => {
         
 
         {/* RIGHT — Journey Cards */}
-        <ul className='timeline timeline-snap-icon max-md:timeline-compact timeline-vertical'>
+        <ul className='pt-16 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical'>
           <li>
             <div className='timeline-middle'>
               <svg
@@ -35,7 +35,7 @@ const AboutMe = () => {
               </svg>
             </div>
             <div className='timeline-start mb-10 md:text-end'>
-              <time className='font-mono italic'>2024-25</time>
+              <time className='font-mono'>2024-25</time>
               <h3 className='font-semibold'>Java & Spring Training</h3>
               <p className='text-gray-600 mt-2'>
                 Focused on backend fundamentals and enterprise Java development.
@@ -60,7 +60,7 @@ const AboutMe = () => {
               </svg>
             </div>
             <div className='timeline-end md:mb-10'>
-              <time className='font-mono italic'>2025</time>
+              <time className='font-mono'>2025</time>
               <h3 className='font-semibold'>Trainee Experience</h3>
               <p className='text-gray-600 mt-2'>
                 Worked at NJ India Finlogic building backend modules using
@@ -86,7 +86,7 @@ const AboutMe = () => {
               </svg>
             </div>
             <div className='timeline-start mb-10 md:text-end'>
-              <time className='font-mono italic'>2026</time>
+              <time className='font-mono '>2026</time>
               <h3 className='font-semibold'>Node.js Transition</h3>
               <p className='text-gray-600 mt-2'>
                 Building APIs and full-stack projects while preparing for

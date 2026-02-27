@@ -1,20 +1,10 @@
-function SkillGroup({ title, skills }) {
+function SkillGroup ({ title, skills }) {
   return (
-    <div>
-      <h3 className="text-xl font-bold mb-4">{title}</h3>
+    <div className='space-y-4'>
+      <h3 className='text-lg font-semibold'>{title}</h3>
 
-      <div className="flex flex-wrap gap-3">
-        {skills.map(skill => (
-          <span
-            key={skill}
-            className="px-4 py-2 border-2 border-black rounded-full bg-white/40"
-          >
-            {skill}
-          </span>
-        ))}
-      </div>
+      <div className='text-gray-700 leading-7'>{skills.join(' · ')}</div>
     </div>
-  );
+  )
 }
-
-export default SkillGroup;
+export default SkillGroup

@@ -1,7 +1,7 @@
 import mail from '../assets/mail.png'
 export default function ContactSection () {
   return (
-    <section className='px-6 md:px-20 py-24'>
+    <section className='px-6 md:px-20 mt-55 pb-4'>
       <div className='max-w-7xl mx-auto text-center'>
     <div className="flex flex-col items-center gap-3">
           <img

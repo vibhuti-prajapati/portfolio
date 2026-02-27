@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 import bulb from '../assets/bulb.svg'
 const MyProjects = () => {
   return (
-    <section className='px-6 md:px-20 py-24'>
+    <section className='px-6 md:px-20 py-16'>
       <div className='max-w-7xl mx-auto'>
         <div className='flex items-center gap-3  mb-12'> 
           <img
@@ -15,7 +15,7 @@ const MyProjects = () => {
         </div>
       {/* Project 1 */}
       <div className="mb-16">
-        <h3 className="text-xl font-medium mb-2">
+        <h3 className="text-xl font-bold mb-2">
           Real-Time GPS Fleet Tracking & Trip Analytics
         </h3>
 
@@ -41,27 +41,27 @@ const MyProjects = () => {
 
         <div className="mt-4 space-x-6 text-sm">
           <a
-            href="#"
+            href="https://github.com/vibhuti-prajapati/gps-ping-processing-"
             className="underline hover:text-black transition"
             target="_blank"
             rel="noopener noreferrer"
           >
             → GitHub
           </a>
-          <a
+          {/* <a
             href="#"
             className="underline hover:text-black transition"
             target="_blank"
             rel="noopener noreferrer"
           >
             → API Docs
-          </a>
+          </a> */}
         </div>
       </div>
 
       {/* Project 2 */}
       <div>
-        <h3 className="text-xl font-medium mb-2">
+        <h3 className="text-xl font-bold mb-2">
           Developer Networking Platform
         </h3>
 
@@ -89,21 +89,21 @@ const MyProjects = () => {
 
         <div className="mt-4 space-x-6 text-sm">
           <a
-            href="#"
+            href="https://github.com/vibhuti-prajapati/skill-circle"
             className="underline hover:text-black transition"
             target="_blank"
             rel="noopener noreferrer"
           >
             → GitHub
           </a>
-          <a
+          {/* <a
             href="#"
             className="underline hover:text-black transition"
             target="_blank"
             rel="noopener noreferrer"
           >
             → Live Demo
-          </a>
+          </a> */}
         </div>
       </div>
       </div>

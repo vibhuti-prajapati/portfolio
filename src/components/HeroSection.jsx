@@ -12,6 +12,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import doodleVideo from '../assets/doodle.mp4'
 import circleImg from '../assets/penCircle.png'
 import { useRef, useEffect } from 'react'
+
 const HeroSection = () => {
   const videoRef = useRef(null)
 
@@ -23,19 +24,19 @@ const HeroSection = () => {
   }, [])
   return (
     <section className=' relative overflow-hidden min-h-screen flex items-center px-6 md:px-20'>
-      {/* Floating Cloud */}
+      {/* Floating Cloud
       <img
         src={cloudImg}
         alt=''
         className='absolute  top-10 w-30 md:w-40 opacity-100 pointer-events-none cloud-float z-0'
-      />
+      /> */}
       <div className='max-w-7xl w-full mx-auto grid md:grid-cols-2 gap-10 items-center'>
         {/* LEFT — Text */}
         <div>
           <div className='space-y-8'>
             {/* Name */}
             <h1 className='text-5xl md:text-4xl font-semibold tracking-tight'>
-              Vibhuti Savaldekar
+             Hi! I'm Vibhuti
             </h1>
 
             <div className='space-y-6'>
@@ -95,12 +96,12 @@ const HeroSection = () => {
 
         {/* RIGHT — GIF DOODLE */}
         <div className='flex justify-center md:justify-end'>
-          <div className='relative w-72 h-72 md:w-96 md:h-96 flex items-center justify-center'>
-            <img
+          <div className='relative w-46 h-46 md:w-62 md:h-62 flex items-center justify-center'>
+            {/* <img
               src={sunImg}
               alt='sun'
               className='absolute -top-24 -right-8 w-20 md:w-24 pointer-events-none sun-rotate'
-            />
+            /> */}
             {/* Marker-style circle
               <div className="absolute w-full h-full rounded-full border-4 border-black border-dashed rotate-6"></div>
               <div className="absolute w-full h-full rounded-full border-2 border-black -rotate-6"></div> */}
@@ -110,7 +111,7 @@ const HeroSection = () => {
               className='absolute w-full h-full object-contain pointer-events-none'
             />
             {/* GIF container */}
-            <div className='w-[85%] h-[85%] rounded-full overflow-hidden flex items-center justify-center bg-white'>
+            <div className='w-[75%] h-[75%] rounded-full overflow-hidden flex items-center justify-center bg-white'>
               {/* <img
                   src={doodleGif}
                   alt='Vibhuti doodle'
