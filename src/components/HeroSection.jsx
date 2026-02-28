@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className='space-y-8'>
             {/* Name */}
             <h1 className='text-5xl md:text-4xl font-semibold tracking-tight'>
-             Hi! I'm Vibhuti
+              Hi! I'm Vibhuti
             </h1>
 
             <div className='space-y-6'>
@@ -45,7 +45,9 @@ const HeroSection = () => {
               </p>
 
               <div className='space-y-1'>
-                <p className='text-md text-base-content/60'>Java · JavaScript</p>
+                <p className='text-md text-base-content/60'>
+                  Java · JavaScript
+                </p>
 
                 <p className='text-md text-base-content/60'>
                   learning by building . improving daily.
@@ -58,7 +60,7 @@ const HeroSection = () => {
                   href='https://github.com/vibhuti-prajapati'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-base-content transition-colors duration-200'
+                  className='text-base-content'
                 >
                   <FaGithub size={30} />
                 </a>
@@ -67,7 +69,7 @@ const HeroSection = () => {
                   href='https://medium.com/@VibhutiSavaldekar'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-base-content transition-colors duration-200'
+                  className='text-base-content'
                 >
                   <FaMedium size={30} />
                 </a>
@@ -76,7 +78,7 @@ const HeroSection = () => {
                   href='https://linkedin.com/in/vibhuti-savaldekar'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-base-content transition-colors duration-200'
+                  className='text-base-content'
                 >
                   <FaLinkedin size={30} />
                 </a>
@@ -85,7 +87,7 @@ const HeroSection = () => {
                   href='https://mail.google.com/mail/?view=cm&fs=1&to=vibhutiprajapati784@gmail.com'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-base-content transition-colors duration-200'
+                  className='text-base-content'
                 >
                   <FaEnvelope size={30} />
                 </a>

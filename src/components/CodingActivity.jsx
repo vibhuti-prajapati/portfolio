@@ -3,25 +3,25 @@ import { FaGithub } from 'react-icons/fa'
 import { useRef, useEffect, useState } from 'react'
 export default function CodingActivity () {
   const scrollRef = useRef(null)
-  // const [scheme, setScheme] = useState('light')
+  const [scheme, setScheme] = useState('light')
 
-  // useEffect(() => {
-  //   const controller = document.querySelector(
-  //     'input.theme-controller[value="dark"]'
-  //   )
+  useEffect(() => {
+    const controller = document.querySelector(
+      'input.theme-controller[value="dark"]'
+    )
 
-  //   if (!controller) return
+    if (!controller) return
 
-  //   const updateScheme = () => {
-  //     setScheme(controller.checked ? 'dark' : 'light')
-  //   }
+    const updateScheme = () => {
+      setScheme(controller.checked ? 'dark' : 'light')
+    }
 
-  //   updateScheme()
+    updateScheme()
 
-  //   controller.addEventListener('change', updateScheme)
+    controller.addEventListener('change', updateScheme)
 
-  //   return () => controller.removeEventListener('change', updateScheme)
-  // }, [])
+    return () => controller.removeEventListener('change', updateScheme)
+  }, [])
 
   useEffect(() => {
     const container = scrollRef.current
@@ -58,7 +58,7 @@ export default function CodingActivity () {
             blockSize={15}
             blockMargin={5}
             fontSize={14}
-           
+            colorScheme={scheme}
             theme={{
               light: ['#e6e5e5', '#b1acac', '#918b8b', '#4a4848', '#000000'],
               dark: ['#2A323C', '#44505F', '#ABB6C4', '#E7EAEE', '#FFFFFF']

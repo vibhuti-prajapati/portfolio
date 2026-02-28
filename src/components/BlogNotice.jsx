@@ -15,10 +15,10 @@ export default function BlogNotice () {
 
   return (
     <div className='fixed top-6 right-6 z-50'>
-      <div className='bg-base-100 border border-base-300 rounded-xl px-6 py-4 shadow-lg max-w-sm font-mono text-sm relative transition-all duration-300'>
+      <div className='bg-base-200 border border-base-300 rounded-xl px-6 py-4 shadow-lg max-w-sm font-mono text-sm relative'>
         <button
           onClick={() => setVisible(false)}
-          className='absolute top-3 right-3 text-base-content/60 hover:text-base-content transition'
+          className='absolute top-3 right-3 text-base-content/60 hover:text-base-content'
         >
           ✕
         </button>
@@ -29,8 +29,8 @@ export default function BlogNotice () {
           <p className='text-base-content/70'>
             I’ve started writing technical blogs. You can explore them{' '}
             <a
-              href=''
-              className='underline underline-offset-4 hover:text-primary transition'
+              href='https://medium.com/@VibhutiSavaldekar'
+              className='underline underline-offset-4 hover:text-primary'
             >
               here
             </a>

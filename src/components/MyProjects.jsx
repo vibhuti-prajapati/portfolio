@@ -42,7 +42,7 @@ const MyProjects = () => {
           <div className='mt-4 space-x-6 text-sm'>
             <a
               href='https://github.com/vibhuti-prajapati/gps-ping-processing-'
-              className='underline hover:text-base-content/60 transition'
+              className='underline hover:text-base-content/60'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -92,7 +92,7 @@ const MyProjects = () => {
           <div className='mt-4 space-x-6 text-sm'>
             <a
               href='https://github.com/vibhuti-prajapati/skill-circle'
-              className='underline hover:text-base-content/80 transition'
+              className='underline hover:text-base-content/80'
               target='_blank'
               rel='noopener noreferrer'
             >
