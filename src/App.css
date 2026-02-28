@@ -1,0 +1,7 @@
+.app-bg {
+  background-image: radial-gradient(
+    oklch(from var(--color-base-content) l c h / 0.12) 1.5px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}

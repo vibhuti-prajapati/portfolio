@@ -6,7 +6,7 @@ export default function BlogNotice () {
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(true)
-    }, 2500) // 2.5 seconds delay
+    }, 2500)
 
     return () => clearTimeout(timer)
   }, [])
@@ -15,21 +15,22 @@ export default function BlogNotice () {
 
   return (
     <div className='fixed top-6 right-6 z-50'>
-      <div className='bg-white border-2 border-black rounded-xl px-6 py-4 shadow-sm max-w-sm font-mono text-sm relative animate-[fadeIn_0.4s_ease]'>
+      <div className='bg-base-100 border border-base-300 rounded-xl px-6 py-4 shadow-lg max-w-sm font-mono text-sm relative transition-all duration-300'>
         <button
           onClick={() => setVisible(false)}
-          className='absolute top-3 right-3 text-gray-500 hover:text-black transition'
+          className='absolute top-3 right-3 text-base-content/60 hover:text-base-content transition'
         >
           ✕
         </button>
 
         <div className='space-y-2'>
-          <p className='font-semibold'>New</p>
-          <p className='text-gray-700'>
+          <p className='font-semibold text-base-content'>New</p>
+
+          <p className='text-base-content/70'>
             I’ve started writing technical blogs. You can explore them{' '}
             <a
-              href='https://medium.com/@VibhutiSavaldekar'
-              className='underline underline-offset-4 hover:text-black'
+              href=''
+              className='underline underline-offset-4 hover:text-primary transition'
             >
               here
             </a>

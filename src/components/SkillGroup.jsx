@@ -3,7 +3,7 @@ function SkillGroup ({ title, skills }) {
     <div className='space-y-4'>
       <h3 className='text-lg font-semibold'>{title}</h3>
 
-      <div className='text-gray-700 leading-7'>{skills.join(' · ')}</div>
+      <div className='text-base-content/80 leading-7'>{skills.join(' · ')}</div>
     </div>
   )
 }

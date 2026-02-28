@@ -40,25 +40,25 @@ const HeroSection = () => {
             </h1>
 
             <div className='space-y-6'>
-              <p className='text-md font-semibold text-gray-700'>
+              <p className='text-md font-semibold text-base-content/80'>
                 Backend developer
               </p>
 
               <div className='space-y-1'>
-                <p className='text-md text-gray-500'>Java · JavaScript</p>
+                <p className='text-md text-base-content/60'>Java · JavaScript</p>
 
-                <p className='text-md text-gray-500'>
+                <p className='text-md text-base-content/60'>
                   learning by building . improving daily.
                 </p>
               </div>
 
               {/* Icons — same spacing as Backend title */}
-              <div className='flex items-center gap-6 text-gray-500'>
+              <div className='flex items-center gap-6 text-base-content/60'>
                 <a
                   href='https://github.com/vibhuti-prajapati'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-black transition-colors duration-200'
+                  className='text-base-content transition-colors duration-200'
                 >
                   <FaGithub size={30} />
                 </a>
@@ -67,7 +67,7 @@ const HeroSection = () => {
                   href='https://medium.com/@VibhutiSavaldekar'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-black transition-colors duration-200'
+                  className='text-base-content transition-colors duration-200'
                 >
                   <FaMedium size={30} />
                 </a>
@@ -76,7 +76,7 @@ const HeroSection = () => {
                   href='https://linkedin.com/in/vibhuti-savaldekar'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-black transition-colors duration-200'
+                  className='text-base-content transition-colors duration-200'
                 >
                   <FaLinkedin size={30} />
                 </a>
@@ -85,7 +85,7 @@ const HeroSection = () => {
                   href='https://mail.google.com/mail/?view=cm&fs=1&to=vibhutiprajapati784@gmail.com'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-black transition-colors duration-200'
+                  className='text-base-content transition-colors duration-200'
                 >
                   <FaEnvelope size={30} />
                 </a>
@@ -111,7 +111,7 @@ const HeroSection = () => {
               className='absolute w-full h-full object-contain pointer-events-none'
             />
             {/* GIF container */}
-            <div className='w-[75%] h-[75%] rounded-full overflow-hidden flex items-center justify-center bg-white'>
+            <div className='w-[75%] h-[75%] rounded-full overflow-hidden flex items-center justify-center bg-base-100 '>
               {/* <img
                   src={doodleGif}
                   alt='Vibhuti doodle'

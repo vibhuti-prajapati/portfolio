@@ -1,9 +1,6 @@
-import { useState } from 'react'
-
 
 import CodingActivity from './components/CodingActivity'
 import ContactSection from './components/Contact'
-import { useRef, useEffect } from 'react'
 import './App.css'
 import HeroSection from './components/HeroSection'
 import AboutMe from './components/AboutMe'
@@ -11,17 +8,13 @@ import MyProjects from './components/MyProjects'
 import Skills from './components/Skills'
 import Blogs from './components/Blogs'
 import BlogNotice from './components/BlogNotice'
+import ThemeToggle from "./components/ThemeToggle";
 function App() {
   return (
-    <div
-      className="min-h-screen text-black"
-      style={{
-        backgroundImage: 'radial-gradient(#d4d4d8 1.5px, transparent 1px)',
-        backgroundSize: '24px 24px'
-      }}
-    >
+    <div className="min-h-screen bg-base-100 text-base-content app-bg">
+        <ThemeToggle />
       <div className="max-w-4xl mx-auto px-6">
-        <BlogNotice/>
+        <BlogNotice />
         <HeroSection />
         <AboutMe />
         <MyProjects />
@@ -31,7 +24,7 @@ function App() {
         <ContactSection />
       </div>
     </div>
-  )
+  );
 }
 
 export default App

@@ -36,11 +36,11 @@ const Blogs = () => {
               rel='noopener noreferrer'
               className='group grid grid-cols-[140px_1fr] gap-8 py-4'
             >
-              <span className='text-gray-800 font-mono text-sm'>
+              <span className='text-base-content/90 font-mono text-sm'>
                 {blog.date}
               </span>
 
-              <span className='font-mono text-gray-800 group-hover:underline'>
+              <span className='font-mono text-base-content/80 group-hover:underline'>
                 {blog.title}
               </span>
             </a>

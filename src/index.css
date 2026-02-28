@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark, cupcake, coffee, black, dracula;
+  themes: light --default, dark --prefersdark;
 }
 .scrollbar-hide {
   -ms-overflow-style: none;  /* IE + Edge */
@@ -15,6 +15,7 @@
   src: url("./assets/Menlo-Regular.ttf") format("truetype");
   font-style: normal;
 }
+
 
 @theme{
    --font-menlo:"menlo", "sans-serif"
